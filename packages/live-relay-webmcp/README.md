@@ -4,11 +4,14 @@ Framework-free TypeScript for Sigmora Live Relay's page-scoped WebMCP workflow. 
 
 The package has no React or runtime dependencies and is safe to import in browser and Node ESM environments. Importing it in Node does not access `document`.
 
-## Public-extraction boundary
+## Open-source boundary
 
-This directory lives in Sigmora's private monorepo and has **no open-source license**. Do not infer a license for Sigmora, its source, services, brand, credentials, data model, publishers, generation engines, or infrastructure.
-
-For the WebMCP Challenge, these integration-layer sources may later be deliberately extracted into a separate public project with its own license and exclusion notice. That public project must contain only the challenge integration, adapter contracts, deterministic provider, reference UI/assets, tests, and setup instructions. It may call Sigmora through a documented authenticated boundary; it must not copy proprietary implementations, production configuration, customer data, tokens, or account credentials. Adding a license here would incorrectly broaden the private-repository grant, so this package intentionally has none.
+This package is part of the separately extracted WebMCP Challenge project and
+is licensed under the repository's MIT license. The license covers this
+integration layer, adapter contracts, deterministic provider, and tests. It
+does not cover the proprietary Sigmora product, hosted service, brand,
+credentials, data model, publishers, generation engines, or infrastructure.
+See the repository's `NOTICE.md` for the complete boundary.
 
 ## Tool surface
 
