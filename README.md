@@ -14,6 +14,11 @@ visible in the UI and in every receipt-like result.
 
 ![Sigmora Live Relay reference board after a simulated reviewed release](docs/screenshots/live-relay-published.png)
 
+Chrome 152 with WebMCP enabled also registered the deployed page's complete
+tool surface without a shim:
+
+![Deployed Sigmora page showing 8/8 Site tools active](docs/screenshots/webmcp-registration.png)
+
 ## Why WebMCP
 
 A live creator cannot leave their broadcast to edit a vertical clip, rewrite

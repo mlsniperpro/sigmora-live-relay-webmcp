@@ -37,6 +37,13 @@ The live reference is <https://sigmora.org/en/webmcp-live-relay>. The separately
 licensed source repository is
 <https://github.com/mlsniperpro/sigmora-live-relay-webmcp>.
 
+On 2026-09-02 the deployed page was opened in Chrome 152 with WebMCP enabled.
+The native `document.modelContext.registerTool` API was available and the page
+reported `8/8 Site tools active`; evidence is stored at
+`docs/screenshots/webmcp-registration.png`. The independent local browser suite
+also completed the reviewed tool workflow, idempotent replay, visible terminal
+state, and non-WebMCP manual fallback.
+
 ## Pre-existing foundation
 
 The proprietary Sigmora product, remote MCP service, workspaces, generation
