@@ -45,6 +45,7 @@ URLs as real posts.
 
 ## Links
 
+- Devpost: <https://devpost.com/software/sigmora-live-relay>
 - Live app: <https://sigmora.org/en/webmcp-live-relay>
 - Source: <https://github.com/mlsniperpro/sigmora-live-relay-webmcp>
 - Demo video: <https://youtu.be/Lq48bUK2Kic>
