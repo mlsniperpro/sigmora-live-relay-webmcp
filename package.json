@@ -8,7 +8,7 @@
     "build": "pnpm --filter @sigmora/live-relay-webmcp build && pnpm --filter @sigmora/live-relay-reference build",
     "dev": "pnpm --filter @sigmora/live-relay-reference dev",
     "test": "pnpm --filter @sigmora/live-relay-webmcp test",
-    "typecheck": "pnpm --filter @sigmora/live-relay-webmcp typecheck && pnpm --filter @sigmora/live-relay-reference typecheck",
+    "typecheck": "pnpm --filter @sigmora/live-relay-webmcp typecheck && pnpm --filter @sigmora/live-relay-webmcp build && pnpm --filter @sigmora/live-relay-reference typecheck",
     "test:e2e": "playwright test",
     "evidence:screenshot": "playwright test tests/evidence.spec.ts --workers=1"
   },
