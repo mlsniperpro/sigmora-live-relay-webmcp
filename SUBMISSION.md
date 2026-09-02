@@ -47,7 +47,7 @@ URLs as real posts.
 
 - Live app: <https://sigmora.org/en/webmcp-live-relay>
 - Source: <https://github.com/mlsniperpro/sigmora-live-relay-webmcp>
-- Demo video: **add the final public YouTube URL before submission**
+- Demo video: <https://youtu.be/Lq48bUK2Kic>
 
 ## Judge walkthrough
 
